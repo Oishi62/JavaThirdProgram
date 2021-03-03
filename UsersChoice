@@ -1,0 +1,29 @@
+# JavaThirdProgram
+import java.util.*;
+class UsersChoice
+{
+    public static void main(String[] s)
+    {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter your choice-> A or a for Hi, B or b for Hey, C or c for Hello ");
+        String c=sc.next();
+        switch(c)
+        {
+           case "A":
+           case "a":
+           System.out.println("You chose Hi");
+           break;
+           case "B":
+           case "b":
+           System.out.println("You chose Hey");
+           break;
+           case "C":
+           case "c":
+           System.out.println("You chose Hello");
+           break;
+           default:
+           System.out.println("Invalid choice");
+        }
+    }
+}
+   
